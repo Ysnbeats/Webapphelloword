@@ -27,10 +27,6 @@ public void init() throws ServletException {
         PrintWriter out = response.getWriter();
 
         String login = request.getParameter("login");
-        out.println("<html>");
-        out.println("<head><title>bonjour," + login + "</title></head>");
-        out.println("<body>");
-        out.println("Hello, "+login);
         out.println("</body></html>");
         out.close();
     }
