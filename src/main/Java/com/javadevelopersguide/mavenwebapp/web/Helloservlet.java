@@ -28,7 +28,7 @@ public void init() throws ServletException {
 
         String login = request.getParameter("login");
         out.println("<html>");
-        out.println("<head><title>Hello," + login + "</title></head>");
+        out.println("<head><title>bonjour," + login + "</title></head>");
         out.println("<body>");
         out.println("Hello, "+login);
         out.println("</body></html>");
