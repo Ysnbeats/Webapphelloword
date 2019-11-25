@@ -30,7 +30,7 @@ public void init() throws ServletException {
         out.println("<html>");
         out.println("<head><title>Hello," + login + "</title></head>");
         out.println("<body>");
-        out.println("Hello, "+login);
+        out.println("Bonjour, "+login);
         out.println("</body></html>");
         out.close();
     }
