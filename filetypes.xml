@@ -4,6 +4,7 @@
       <mapping pattern="DaoBeanUser" type="CLASS" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="User" type="XML" />
+      <mapping ext="hbm" type="XML" />
     </extensionMap>
   </component>
 </application>
