@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="DaoBeanUser" type="CLASS" />
       <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="User" type="XML" />
     </extensionMap>
   </component>
 </application>
